@@ -1,0 +1,76 @@
+#page-create-orphanage {
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    flex:1;
+}
+
+.map-container {
+    margin: 0 0 4rem;
+}
+
+.map-container .leaflet-container {
+    border-radius: 20px 20px 0 0;
+
+}
+
+.map-container footer{
+    background: #f5f8fa;
+    border-radius: 0 0 20px 20px;
+}
+
+.input-block label{
+    color: #8fa7b3;
+
+    width: 2.7rem;
+    height: 1.4rem;
+    
+}
+
+.input-block #name, #whatsapp, #photos, #more, #instruction, #visit, #attention{
+    width: 100%;
+    height: 6.8rem;
+    margin-top: 1.1rem;
+    background: #F5F8FA;
+
+    border: 1px solid #D3E2E5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+}
+
+.input-block #about {
+    width: 100%;
+    height: 120px;
+    margin-top: 1.1rem;
+    background: #F5F8FA;
+
+    border: 1px solid #D3E2E5;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.input-block strong {
+    margin-left: 1.25rem;
+}
+
+.input-block #photos {
+    color: #8FA7B3;
+
+    font-size: 2rem;  
+}
+
+.input-block #more {
+    border: 1px dashed #96D2F0;
+    margin-top: 0;
+}
+
+.input-block #visit {
+    height: 120px;
+}
+
+#opacidade{
+    opacity: 0.5;
+}
